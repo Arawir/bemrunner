@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maciej/IKW_IM/PRAKTYKI_PWR/bemRunner/main.cpp
+cstdlib
+-
+fstream
+-
+iostream
+-
+vector
+-
+fstream
+-
+cassert
+-
+ctime
+-
+
