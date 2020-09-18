@@ -1,0 +1,10 @@
+#PBS -S /bin/bash
+#PBS -q main
+#PBS -l walltime=00:01:00
+#PBS -l select=1:ncpus=1:mem=2GB
+
+cd $PBS_O_WORKDIR
+
+module load gcc/7.3.0
+g++ main.cpp -o bemrunner
+
