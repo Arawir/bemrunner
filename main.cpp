@@ -93,7 +93,7 @@ Param* param(std::string name)
     {
         if(param.name==name) return &param;
     }
-    std::cerr << "ERROR: Unknown param name!" << std::endl;
+    std::cerr << "ERROR: Unknown param name! ->" << name << std::endl;
     assert(false);
     return nullptr;
 }
