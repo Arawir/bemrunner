@@ -1,0 +1,9 @@
+PBSmem=1GB
+PBStime=00:00:11
+PBSrun=0
+PROGpath=/home/maciej/IKW_IM/PRAKTYKI_PWR/bemRunner
+PROGname=prog
+
+arg1=1,2,3
+arg2=1
+arg3=a,b

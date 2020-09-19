@@ -107,7 +107,7 @@ void generateScriptForGroup(int num)
 {
     std::string outName = path + "/" + std::to_string(num)+".data";
 
-    std::fstream file(path+"/"+std::to_string(num)+".sh", std::ios::out);
+    std::fstream file(std::string(path+"/"+std::to_string(num)+".sh"), std::ios::out);
 
     file << "#PBS -S /bin/bash" << std::endl;
     file << "#PBS -q main" << std::endl;
